@@ -1,0 +1,54 @@
+<div class="">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <!-- Header bo'limi -->
+        <header>
+            Xush kelibsiz, <span style="color: green;">Virtual Zooparkga!</span>
+        </header>
+    
+        <!-- Hayvonlar haqida qiziqarli faktlar -->
+        <h2>Hayvonlar haqida qiziqarli faktlar</h2>
+        <div class="section">
+            <img src="./Снимок экрана 2024-12-17 155152.png" alt="Arslonlar">
+            <img src="./Снимок экрана 2024-12-17 155355.png" alt="Arslon dam olayotgani">
+        </div>
+    
+        <!-- Video bo'limi -->
+        <h2>Hayvonlarni ko'rish</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S2Za6kixNPc?si=8Eo0DERWRzEqb3-m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+        <!-- Fikr qoldirish bo'limi -->
+        <form>
+            <label for="fikr"><strong>O'z fikringizni yozib qoldiring</strong></label><br>
+            <textarea id="fikr" placeholder="Fikringizni bu yerda yozing..."></textarea><br>
+            <label><strong>Sevimli hayvoningiz qaysi?</strong></label><br>
+            <input type="radio" name="hayvon" value="arslon"> Arslon<br>
+            <input type="radio" name="hayvon" value="fil"> Fil<br><br>
+            <button type="submit">Jo'natish</button>
+        </form>
+    
+        <!-- Hayvonlar haqida ma'lumot jadvali -->
+        <h2>Hayvonlar haqida to'liq ma'lumotlar jadvali</h2>
+        <table>
+            <tr>
+                <th>Hayvon</th>
+                <th>Qiziqarli fakt</th>
+            </tr>
+            <tr class="lion">
+                <td>Arslon</td>
+                <td>Arslonlar kunining 20 soatini uxlab o'tkazishadi</td>
+            </tr>
+            <tr class="elephant">
+                <td>Fil</td>
+                <td>Fil yer yuzidagi eng katta quruqlik hayvoni hisoblanadi</td>
+            </tr>
+        </table>
+    </body>
+    </html>
